@@ -1,1 +1,1 @@
-Repository is fresh, still nothing here
+Repository is fresh.
