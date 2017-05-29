@@ -1,0 +1,34 @@
+2 5 
+6 9
+10 1
+11 1
+4 6
+2 7
+
+1 - dop dvijeniq
+1
+3
+
+ob6to 38
+
+N <= 1000  
+Q <= 1000
+
+zaduljitelno da se prenesat tovarite v posledovatelnostta koqto e dadena
+
+
+1 2 3 4 5 6
+
+1 2
+6 5
+3 4
+
+
+----------------------------------------------------
+
+
+N - athletes
+M - finish lines
+
+
+
