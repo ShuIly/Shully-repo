@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1410438667 source:c:\users\vladi\desktop\danjen game development\danjen\main.cpp
+	<iostream>
+	<windows.h>
+
