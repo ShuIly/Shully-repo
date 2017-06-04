@@ -1,0 +1,29 @@
+q <= 1 000 000 - queries
+n <= 100 000 - numbers
+
+i leftmost index
+j rightmost index
+
+find minimum value located between i and j
+
+a[i], a[i+1], a[i+2] ... a[n]
+
+
+-----------------------------------------
+EXAMPLE
+
+IN:
+9 4
+1 2 8 10 5 22 44 89 0
+0 1
+1 5
+0 9
+2 5
+
+OUT:
+1
+2
+0
+5
+
+Range Minimum Query (RMQ)
