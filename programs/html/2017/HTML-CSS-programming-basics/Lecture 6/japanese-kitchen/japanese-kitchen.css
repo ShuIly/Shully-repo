@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url("images/dark-wood.jpg") repeat;
+    margin: 0 auto;
+}
+header{
+    background: url("images/header-page.jpg") no-repeat center;
+    height: 130px;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    background: url("images/header-page.jpg");
+    margin: 5px auto;
+    width: 940px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav{
+    padding: 5px 0;
+}
+nav li{
+    padding-left: 40px;
+}
+nav li:first-child a{
+    color: #000000;
+}
+nav a:hover{
+    color: #000000;
+}
+li{
+    display: inline-block;
+    font-size: 14px;
+}
+header h1{
+    text-align: right;
+    padding: 50px;
+}
+main{
+    margin: 0 auto;
+    width: 940px;
+    height: auto;
+    background-color: #ffffff;
+    overflow: auto;
+}
+section.courses{
+    float: left;
+    width: 700px;
+}
+figure{
+    float: left;
+    text-align: left;
+    width: 290px;
+    margin: 30px;
+    padding: 5px;
+    border: 1px solid #5A6C7E;
+}
+figcaption{
+    padding-top: 5px;
+    color: #5A6C7E;
+}
+aside{
+    float: right;
+    width: 100px;
+}
+p{
+    width: 300px;
+}
+article{
+    width: 650px;
+    height: 300px;
+}
