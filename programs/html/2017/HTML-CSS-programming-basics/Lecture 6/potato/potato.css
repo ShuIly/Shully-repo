@@ -1,0 +1,157 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: radial-gradient(ellipse at center,
+    rgba(192,169,145,1) 0%,
+    rgba(192,169,145,1) 59%,
+    rgba(168,143,121,1) 100%);
+;
+    font-size: 14px;
+    color: #ffffff;
+}
+nav{
+    margin: 0 auto;
+    color: #ffffff;
+}
+header{
+    margin: 0 auto;
+}
+p.brand{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 60px;
+}
+li.nav-item{
+    display: inline-block;
+}
+ul.nav-primary{
+    float: right;
+    margin: 20px 60px;
+}
+li.nav-item a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+li.nav-item.button-cta a{
+     border: 2px solid #ffffff;
+     background: none;
+     border-radius: 20px;
+     padding: 10px
+}
+li.nav-item.button-cta a:hover{
+    border: 2px solid #867260;
+    background: #867260;
+}
+h1.header-title{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 400;
+}
+h3.header-subtitle{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+img.header-potato{
+    margin: 60px auto;
+    width: 500px;
+    display: block;
+}
+main{
+    color: #000000;
+    margin: 0 auto;
+}
+div.features{
+    background: url("images/potato-background.png") no-repeat;
+    background-size: cover;
+}
+h1.features-title{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+h3.features-subtitle{
+    text-align: center;
+    font-weight: 400;
+    width: 500px;
+    margin: 30px auto;
+}
+img.feature-potatoes{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+div.buy-now{
+    background: #FAFAFA;
+}
+h1.order-title{
+    text-align: center;
+    font-size: 45px;
+    padding: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+ul.potato-types{
+    text-align: center;
+}
+li.potato img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+li.potato{
+    display: inline-block;
+    margin: 20px;
+    padding-right: 30px;
+    border-right: 2px solid #8F8F8F;
+}
+li.potato-description{
+    list-style-type: none;
+}
+li.potato-types:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+h3.potato-title{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+li.potato-description{
+    padding: 15px;
+}
+button.btn-order{
+    margin-bottom: 15px;
+    border: 2px solid #9ACD32;
+    background: none;
+    color: #9ACD32;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+button.btn-order:hover{
+    background: #9ACD32;
+    color: #ffffff;
+}
+footer{
+    background: #867260;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    clear: both;
+}

@@ -1,3 +1,5 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
 * {
     margin: 0;
     padding: 0;
@@ -18,8 +20,10 @@ nav{
     margin: 5px auto;
     width: 940px;
 }
-nav a{
+a{
     text-decoration: none;
+}
+nav a{
     color: #ffffff;
 }
 nav{
@@ -27,6 +31,7 @@ nav{
 }
 nav li{
     padding-left: 40px;
+    display: inline-block;
 }
 nav li:first-child a{
     color: #000000;
@@ -35,8 +40,8 @@ nav a:hover{
     color: #000000;
 }
 li{
-    display: inline-block;
     font-size: 14px;
+    list-style-type: none;
 }
 header h1{
     text-align: right;
@@ -45,34 +50,60 @@ header h1{
 main{
     margin: 0 auto;
     width: 940px;
-    height: auto;
+    height: 1000px;
     background-color: #ffffff;
-    overflow: auto;
 }
 section.courses{
     float: left;
-    width: 700px;
+    width: 300px;
+    padding: 30px;
+}
+section.courses h2{
+    color: #595959;
+}
+section.courses h3{
+    color: #DBC480;
+    padding-bottom: 20px;
 }
 figure{
     float: left;
-    text-align: left;
-    width: 290px;
-    margin: 30px;
-    padding: 5px;
-    border: 1px solid #5A6C7E;
-}
-figcaption{
-    padding-top: 5px;
-    color: #5A6C7E;
+    width: 300px;
+    padding-right: 30px;
 }
 aside{
     float: right;
-    width: 100px;
+    width: 250px;
+    height: 600px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-left: 2px solid #F2F2F2;
 }
-p{
-    width: 300px;
+aside h2{
+    color: #DC5B78;
+}
+aside ul li{
+    padding: 15px;
+    width: 145px;
+    border-bottom: 2px solid #F2F2F2;
+}
+aside ul a{
+    color: #DC5B78;
+    font-size: 14px;
+    font-weight: bold;
+}
+aside h2{
+    width: 60px;
+    padding-bottom: 15px;
 }
 article{
-    width: 650px;
-    height: 300px;
+    width: 600px;
+    height: 220px;
+    padding-bottom: 30px;
+}
+section.courses:after,
+figure:after,
+aside:after{
+    content: '';
+    display: block;
+    clear: both;
 }
