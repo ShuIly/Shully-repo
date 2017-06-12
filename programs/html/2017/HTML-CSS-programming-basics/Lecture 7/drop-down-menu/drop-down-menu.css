@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #1D211E;
+}
+nav {
+    text-align: center;
+}
+nav, ul {
+    background: #E67C1F;
+    margin-top: 15px;
+}
+li:hover {
+    background: #000;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+nav > ul > li {
+    display: inline-block;
+}
+.first-layer, .second-layer{
+    display: none;
+}
+nav ul li:hover .first-layer{
+    position: absolute;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.first-layer li:last-of-type:hover .second-layer {
+    position: absolute;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
