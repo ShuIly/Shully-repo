@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 200px;
+}
+header {
+    line-height: 100px;
+    border: 2px solid #000;
+    margin: 10px;
+}
+h1, footer p {
+    margin-left: 15px;
+}
+footer {
+    line-height: 70px;
+    border: 2px solid #000;
+    margin: 10px;
+}
+header, footer, li {
+    color: #ffffff;
+}
+header, footer {
+    background: #8B603D;
+}
+li {
+    background: #33B5E5;
+    width: 150px;
+    padding: 10px;
+    margin: 10px 20px 10px 30px;
+}
+ul {
+    float: left;
+}
+aside {
+    float: left;
+    width: 530px;
+}
+aside p{
+    margin: 15px 0;
+}
+aside h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+aside:after, li:after {
+    content: '';
+    clear: both;
+    display: block;
+}
