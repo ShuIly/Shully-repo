@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    text-align: center;
+}
+.left, .right, .center {
+    padding: 20px 60px;
+    border: 1px solid #6495ED;
+    border-radius: 10px;
+    background: #6495ED;
+    margin: 5px;
+}
+.left:after,
+.right:after,
+.center:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+p {
+    text-align: justify;
+}

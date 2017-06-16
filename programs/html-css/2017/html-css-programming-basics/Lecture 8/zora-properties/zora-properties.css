@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+aside {
+    width: 20%;
+    border: 1px solid blue;
+    float: left;
+    font-family: "Comfortaa", sans-serif;
+}
+
+main {
+    border: 1px solid red;
+    float: left;
+    width: 79%;
+    min-height: 100%;
+    font-family: "Open Sans", Arial, sans-serif;
+    background: #f3f5f7;
+}
+
+aside h1.logo {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2em;
+}
+
+aside img.profile-picture {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+aside p.username {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin: 15px 0;
+    color: #b1bfc6;
+}
+
+ul.menu li {
+
+    list-style-type: none;
+}
+
+ul.menu i.icon {
+    color: #b1bfc6;
+    font-size: 0.9em;
+}
+
+ul.menu li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #b1bfc6;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: block;
+}
+
+ul.menu li a:hover {
+    color: #384850;
+}
+
+div.content {
+    margin: 30px 30px;
+}
+
+div.first-row, div.second-row {
+    margin-top: 40px;
+}
+
+main h1 {
+    font-size: 1.7em;
+    color: #384850;
+    font-weight: 500;
+    width: 150px;
+    display: inline-block;
+}
+
+main h1 span {
+    color: #b1bfc6;
+}
+
+button.add-property {
+    float: right;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #ff7739;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 3px solid #ff7739;
+    border-radius: 20px;
+    background: none;
+}
+
+button.add-property:hover {
+    background: #ff7739;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button.add-property::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h2.apartment-location {
+    color: #384850;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+h3.apartment-street {
+    color: #384850;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+section.apartments {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: #ffffff;
+    box-shadow: #333 2px 2px 10px;
+}
+
+p.property-label {
+    color: #ffffff;
+    font-size: 0.8em;
+    border: 1px solid #68bc69;
+    border-radius: 20px;
+    background: #68bc69;
+    text-transform: uppercase;
+    width: 18%;
+    padding: 5px 10px;
+    position: relative;
+    right: 10px;
+    top: 35px;
+}
+
+img.apartment-image {
+    width: 200px;
+}
+
+h4.apartment-name,
+p.unit  {
+    font-size: 0.9em;
+    color: #384850;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+p.unit {
+    padding-bottom: 10px;
+}

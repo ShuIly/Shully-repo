@@ -1,0 +1,109 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url("images/dark-wood.jpg") repeat;
+    margin: 0 auto;
+}
+header{
+    background: url("images/header-page.jpg") no-repeat center;
+    height: 130px;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    background: url("images/header-page.jpg");
+    margin: 5px auto;
+    width: 940px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: #ffffff;
+}
+nav{
+    padding: 5px 0;
+}
+nav li{
+    padding-left: 40px;
+    display: inline-block;
+}
+nav li:first-child a{
+    color: #000000;
+}
+nav a:hover{
+    color: #000000;
+}
+li{
+    font-size: 14px;
+    list-style-type: none;
+}
+header h1{
+    text-align: right;
+    padding: 50px;
+}
+main{
+    margin: 0 auto;
+    width: 940px;
+    height: 1000px;
+    background-color: #ffffff;
+}
+section.courses{
+    float: left;
+    width: 300px;
+    padding: 30px;
+}
+section.courses h2{
+    color: #595959;
+}
+section.courses h3{
+    color: #DBC480;
+    padding-bottom: 20px;
+}
+figure{
+    float: left;
+    width: 300px;
+    padding-right: 30px;
+}
+aside{
+    float: right;
+    width: 250px;
+    height: 600px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-left: 2px solid #F2F2F2;
+}
+aside h2{
+    color: #DC5B78;
+}
+aside ul li{
+    padding: 15px;
+    width: 145px;
+    border-bottom: 2px solid #F2F2F2;
+}
+aside ul a{
+    color: #DC5B78;
+    font-size: 14px;
+    font-weight: bold;
+}
+aside h2{
+    width: 60px;
+    padding-bottom: 15px;
+}
+article{
+    width: 600px;
+    height: 220px;
+    padding-bottom: 30px;
+}
+section.courses:after,
+figure:after,
+aside:after{
+    content: '';
+    display: block;
+    clear: both;
+}

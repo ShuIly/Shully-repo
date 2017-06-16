@@ -1,0 +1,24 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+main{
+    margin: 50px 200px;
+    max-width: 1060px;
+    padding: 0 10px;
+}
+h2{
+    color: #234465;
+    margin: 10px;
+}
+p{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+    letter-spacing: 0;
+    width: 800px;
+}
+img{
+    width: 180px;
+    height: 100px;
+    margin: 10px 50px 0 0;
+}
