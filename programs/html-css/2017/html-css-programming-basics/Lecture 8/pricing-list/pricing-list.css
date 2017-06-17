@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+}
+
+div.wrapper {
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1.table-title {
+    font-size: 40px;
+    color: #778495;
+}
+
+a.section-link {
+    text-decoration: none;
+    color: #778495;
+}
+
+section.price-section {
+    width: 325px;
+    min-height: 640px;
+    margin: 30px 10px;
+    border: 1px solid #EBEFF2;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+a.section-link:hover h2.business-type,
+a.section-link:hover button.purchase-btn {
+    background: #65D3E2;
+}
+
+a.section-link:hover div.price span {
+    color: #65D3E2;
+}
+
+h2.business-type {
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 500;
+    background: #EBEFF2;
+    text-transform: capitalize;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+div.price {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+div.price span {
+    font-size: 60px;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+li.list-item {
+    margin: 30px 30px;
+    border-bottom: 1px solid #EBEFF2;
+    list-style-type: none;
+    text-align: left;
+}
+
+button.purchase-btn {
+    font-size: 1em;
+    margin: 30px 15px 15px 15px;
+    padding: 20px 80px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    background: #DDDDDD;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}

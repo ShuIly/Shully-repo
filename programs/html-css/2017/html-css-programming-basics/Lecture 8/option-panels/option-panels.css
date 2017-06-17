@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #CACAC9;
+    font-size: 15px;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #191923;
+}
+
+div.wrapper {
+    margin: 50px 50px;
+}
+
+ul.nav-list {
+    padding-left: 30px;
+}
+
+nav.main-nav {
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+    background: white;
+}
+
+li.list-item{
+    display: inline-block;
+    list-style-type: none;
+}
+
+li.list-item a {
+    text-decoration: none;
+    color: #191923;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+li.list-item:first-of-type a {
+    text-transform: capitalize;
+}
+
+li.list-item:first-of-type a,
+li.list-item:hover a {
+    color: #BF1363;
+}
+
+main {
+    margin-top: 50px;
+}
+
+main div.sections {
+    text-align: center;
+}
+
+section.benefits-section {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+section.benefits-section:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+img.section-image {
+    width: 250px;
+    height: 170px;
+}
+
+header.section-header {
+    background: white;
+    width: 250px;
+    min-height: 120px;
+}
+
+h2.section-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 10px;
+}
+
+p.section-info {
+    padding: 0 10px;
+}
