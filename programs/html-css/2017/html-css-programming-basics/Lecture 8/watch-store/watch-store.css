@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Lemon-Regular;
+    src: url(fonts/Lemon-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lemon-Regular, Arial, sans-serif;
+    font-size: 15px;
+    background: #602D75;
+}
+
+div.wrapper {
+    max-width: 900px;
+    padding: 10px;
+    margin: 60px auto;
+    border-radius: 40px;
+    text-align: center;
+    background: #FFAE32;
+}
+
+h1.main-header {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+article.watches-article {
+    padding: 10px;
+    width: 220px;
+    margin: 40px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #602D75;
+    color: white;
+    display: inline-block;
+}
+
+h2.price {
+    font-size: 22px;
+    padding: 10px;
+}
+
+p.guarantee {
+    color: #FFAE32;
+}
+
+img.article-image {
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #806871;
+    border-radius: 50%;
+}
+
+button.add-btn {
+    border: 3px solid #DEDFDE;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-bottom: 3px solid #838784;
+    border-right: 3px solid #838784;
+}

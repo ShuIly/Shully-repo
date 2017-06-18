@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: OpenSans-ExtraBold, Helvetica, sans-serif;
+    background: #F0F0E8;
+}
+
+div.wrapper {
+    max-width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1.page-title {
+    font-size: 56px;
+    padding: 15px;
+    color: #009288;
+}
+
+p.decoration,
+p.page-info {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #7B7D84;
+}
+
+section.benefits-section {
+    padding: 20px;
+}
+
+a.article-link {
+    padding: 40px;
+    margin: 20px;
+    width: 155px;
+    color: #7B7D84;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.article-link:hover {
+    border-left: 10px solid #009288;
+    padding-left: 30px;
+    background: #F6F6F5;
+}
+
+img.article-icon {
+    padding: 10px;
+}
+
+h2.article-title {
+    font-size: 16px;
+}
+
+p.article-info {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
