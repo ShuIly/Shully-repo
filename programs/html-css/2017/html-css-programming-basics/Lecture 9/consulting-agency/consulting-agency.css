@@ -1,0 +1,115 @@
+@import
+"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@import
+url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    /*background: black;*/
+}
+
+header {
+    background: url("images/Layer-759_02.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+nav.main-nav {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+}
+
+ul.nav-items {
+    background: rgba(187, 148, 93, 0.9);
+}
+
+li.nav-list-item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a.item-link {
+    padding: 10px 20px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+li.nav-list-item:hover a{
+    color: #f5c686;
+}
+
+h1.slider-header {
+    margin-top: 60px;
+    font-size: 3em;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+p.slider-info {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 1.2em;
+    background: rgba(200, 200, 200, 0.3);
+    box-shadow: 0 0 19px 4px rgba(200, 200, 200, 0.4);
+    text-shadow: 0 0 10px black;
+}
+
+button.services-btn {
+    font-size: 1em;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background: #161616;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 8px -1px white;
+}
+
+button.services-btn:hover {
+    background: #c79d63;
+    border-color: #c79d63;
+    color: black;
+    cursor: pointer;
+}
+
+section.benefits {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2.benefits-header {
+    font-size: 2.5em;
+    margin: 40px auto 10px;
+    font-weight: 500;
+}
+
+article.benefits-article {
+    width: 340px;
+    margin: 0 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+h3.benefit-type {
+    margin: 30px 0 20px 40px;
+}
+
+p.benefit-info {
+    margin-left: 40px;
+}
+
