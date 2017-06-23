@@ -1,0 +1,7 @@
+# IDEA Ignores #
+.idea/
+out/
+local.properties
+*.iml
+*.ipr
+*.iws
