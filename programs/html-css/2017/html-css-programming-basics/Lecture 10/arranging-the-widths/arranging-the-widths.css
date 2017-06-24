@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #2D2D2D;
+}
+
+form {
+    max-width: 300px;
+}
+
+input, #select, #textarea {
+    width: 200px;
+}
+
+span {
+    display: block;
+}
