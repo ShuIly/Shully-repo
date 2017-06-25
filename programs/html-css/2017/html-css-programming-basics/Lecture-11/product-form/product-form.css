@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    background: #FAFAFA;
+}
+
+main {
+    max-width: 1000px;
+    margin: 100px auto;
+    color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 90px -20px #42C9CA;
+    border: 1px solid #42C9CA;
+    
+}
+
+div.image-container {
+    max-width: 40%;
+    padding: 90px 0;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    display: inline-block;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+img.left-side-image {
+    width: 100%;
+}
+
+section.nike-section{
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1.section-title {
+    font-size: 3em;
+    letter-spacing: -2px;
+    color: #333333;
+    font-weight: bold;
+}
+
+div.price-container {
+    margin: 30px 0;
+}
+
+span.price {
+    font-size: 2em;
+    color: #5A5A5A;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+span.label-title {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #333;
+    display: block;
+}
+
+#size-select,
+input.section-input {
+    box-sizing: border-box;
+    width: 200px;
+    margin-left: 10px;
+    padding: 8px;
+    outline: none;
+}
+
+#size-select {
+    color: #ffffff;
+    background: #42C9CA;
+    border: 1px solid #42C9CA;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input.section-input {
+    color: #42C9CA;
+    background: inherit;
+    border: none;
+    border-bottom: 3px solid #42C9CA;
+}
+
+button.continue-btn {
+    font-size: 1.1em;
+    margin-top: 50px;
+    padding: 5px 20px;
+    color: #42C9CA;
+    background: #ffffff;
+    border: 3px solid #42C9CA;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+button.continue-btn:hover {
+    color: #ffffff;
+    background: #42C9CA;
+    cursor: pointer;
+}
