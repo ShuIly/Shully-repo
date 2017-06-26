@@ -3,60 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
 </head>
 <body>
 <main>
     <h1 class="main-title">Room Reservation</h1>
-    <section class="information">
-        <article class="information-article">
-            <h2 class="information-article-title">Basic Information</h2>
-            <p class="information-article-info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
-                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
-                nec commodo.
-            </p>
+    <form>
+        <div class="information-container">
+            <article class="information-article">
+                <h2 class="information-title">Basic Information</h2>
+                <p class="information-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                    blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas
+                    eros
+                    nec commodo.
+                </p>
+            </article>
             <label class="information-label">
                 <span class="information-label-title">Search</span>
                 <input type="search">
             </label>
-        </article>
-        <article class="personal-details-article">
-            <label class="personal-details-label">
-                <span class="personal-details-title">Personal Details</span>
-                <input type="text" placeholder="First Name" class="personal-details-input">
-                <input type="text" placeholder="Last Name" class="personal-details-input">
-                <input type="text" placeholder="Enter email" class="personal-details-input">
-            </label>
-        </article>
-        <article class="reservation-article">
-            <h2 class="reservation-article-title">Request a reservation</h2>
+        </div>
+        <div class="details-reservation-container">
+            <div class="personal-details-container">
+                <h2 class="personal-details-title">Personal Details</h2>
+                <label class="personal-details-label">
+                    <input type="text" placeholder="First Name" class="personal-details-input">
+                    <input type="text" placeholder="Last Name" class="personal-details-input">
+                    <input type="text" placeholder="Enter email" class="personal-details-input">
+                </label>
+            </div>
             <div class="reservation-container">
-                <label class="room-select-label">
-                    <select name="room-select" id="room-select">
-                        <option value="Room 1">Room 1</option>
-                        <option value="Room 2">Room 2</option>
-                        <option value="Room 3">Room 3</option>
-                        <option value="Room 4">Room 4</option>
-                    </select>
-                </label>
-                <label class="room-quantity-label">
-                    <span class="room-quantity-title">Number of Rooms</span>
-                    <input type="number" class="room-quantity-input">
-                </label>
+                <h2 class="reservation-title">Request a reservation</h2>
+                <div class="reservation-container">
+                    <label class="room-select-label">
+                        <span class="room-select-title">Select a Room</span>
+                        <select name="room-select" id="room-select">
+                            <option value="Room 1">Room 1</option>
+                            <option value="Room 2">Room 2</option>
+                            <option value="Room 3">Room 3</option>
+                            <option value="Room 4">Room 4</option>
+                        </select>
+                    </label>
+                    <label class="room-quantity-label">
+                        <span class="room-quantity-title">Number of Rooms</span>
+                        <input type="number" class="room-quantity-input" value="1">
+                    </label>
+                </div>
+                <div class="check-in-out-container">
+                    <label class="check-in-label">
+                        <span class="check-in-title">Check-In:</span>
+                        <input type="date" class="check-in-input">
+                    </label>
+                    <label class="check-out-label">
+                        <span class="check-out-title">Check-In:</span>
+                        <input type="date" class="check-out-input">
+                    </label>
+                </div>
             </div>
-            <div class="check-in-out-container">
-                <label class="check-in-label">
-                    <span class="check-in-title">Check-In:</span>
-                    <input type="date" class="check-in-input">
-                </label>
-                <label class="check-out-label">
-                    <span class="check-out-title">Check-In:</span>
-                    <input type="date" class="check-out-input">
-                </label>
-            </div>
-        </article>
-        <button class="book-btn">book now</button>
-    </section>
+        </div>
+        <div class="button-container">
+            <button class="book-btn">book now</button>
+        </div>
+    </form>
 </main>
 </body>
 </html>

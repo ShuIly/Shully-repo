@@ -1,0 +1,122 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #EEEEEE;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+div.wrapper {
+    width: 800px;
+    margin: 100px auto;
+    padding: 80px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+header {
+    border-bottom: 2px solid #DBDBDB;
+    text-align: center;
+}
+
+h1.header-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+p.header-info {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+div.new-account-container,
+div.login-container {
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.new-account-container {
+    margin-right: 60px;
+}
+
+h2.new-account-title,
+h2.login-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+label.input-label {
+    display: block;
+    position: relative;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+label.input-label.tick::after {
+    font-family: FontAwesome, sans-serif;
+    font-size: 2em;
+    content: '\f00c';
+    color: #ffffff;
+    background: #00FF00;
+    position: absolute;
+    top: 5px;
+    right: 35px;
+}
+
+label.input-label.cross::after {
+    font-family: FontAwesome, sans-serif;
+    font-size: 2em;
+    padding: 0 4px;
+    content: '\f00d';
+    color: #ffffff;
+    background: #FF0500;
+    position: absolute;
+    top: 5px;
+    right: 35px;
+}
+
+a.forgot-password {
+    text-decoration: none;
+    color: #F29DB1;
+}
+
+a.forgot-password:hover {
+    text-decoration: underline;
+}
+
+div.button-container {
+    margin-top: 15px;
+}
+
+button.login-btn,
+button.register-btn{
+    padding: 10px 20px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+    background: #F0F0F0;
+}
+
+button.login-btn:hover,
+button.register-btn:hover {
+    border: 1px solid #AFDF67;
+    background: #AFDF67;
+    cursor: pointer;
+}
+
