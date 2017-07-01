@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class test {
-    private static String repeatChar(int n, char s){
+    private static String repeatChar(int n, char c){
         String returnString = "";
         for (int i = 0; i < n; i++) {
-            returnString += s;
+            returnString += c;
         }
         return returnString;
     }
