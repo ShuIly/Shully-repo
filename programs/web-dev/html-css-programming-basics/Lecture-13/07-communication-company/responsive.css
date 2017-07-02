@@ -1,0 +1,92 @@
+@media screen and (max-width: 1200px){
+    .wrapper {
+        max-width: 1180px;
+        width: auto;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+    }
+
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .main-foot address,
+    .main-foot nav {
+        flex-basis: 300px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body {
+        background: #181621;
+    }
+
+    .hero-head {
+        min-height: 560px;
+        margin: 0 20px;
+        background: none;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav-trigger {
+        display: block;
+        float: right;
+        top: 30px;
+    }
+
+    .wrapper {
+        text-align: center;
+    }
+
+    .hero-head h1 {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .hero-head .goal {
+        max-width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        float: none;
+    }
+
+    .bordered {
+        background: #fff;
+    }
+
+    .content-wrap.two-col .col {
+        margin: 0 20px;
+    }
+
+    .button {
+        display: block;
+    }
+
+    .content-wrap {
+        margin: 0 20px;
+    }
+
+    .button-list li {
+        display: block;
+    }
+
+    .sponsors {
+        background: #fff;
+    }
+
+    .main-foot .wrapper {
+        flex-direction: column;
+    }
+
+    .main-foot .bottom .copyright {
+        float: none;
+        text-align: center;
+    }
+
+}

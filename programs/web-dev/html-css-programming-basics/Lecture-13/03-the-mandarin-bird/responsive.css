@@ -1,0 +1,60 @@
+@media screen and (max-width: 1200px) {
+
+    header nav > ul li {
+        width: 20%;
+    }
+
+    div#wrapper {
+        width: auto;
+        max-width: 1200px;
+    }
+
+    header {
+        width: auto;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    main > section {
+        display: block;
+        float: none;
+        width: auto;
+    }
+
+    main > section > div {
+        margin-right: 30px;
+    }
+
+    main > aside {
+        width: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    header > nav {
+        height: auto;
+    }
+
+    header nav > ul li {
+        width: auto;
+        display: block;
+        float: none;
+    }
+
+    main section > div {
+        height: auto;
+    }
+
+    main section > div > div {
+        display: block;
+        float: none;
+        text-align: center;
+        background: #B7CC89;
+        margin: 0;
+    }
+
+}
