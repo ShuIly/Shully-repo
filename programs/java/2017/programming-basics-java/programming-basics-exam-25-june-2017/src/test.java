@@ -17,9 +17,8 @@ public class test {
         System.out.printf("%s%n", repeatChar(4 * n + 1, '#'));
 
         /*TO MIDDLE*/
-        int whenToStopToMiddle = n * 2;
         int whenToInsertEye = n / 2 + 1;
-        for (int i = 1, j = 1, k = 1; i < whenToStopToMiddle; i += 2, j++, k += 2) {
+        for (int i = 1, j = 1, k = 1; j < n + 1; i += 2, j++, k += 2) {
             String toMiddleHash = repeatChar(n * 2 - i, '#');
             String toMiddleDot = repeatChar(j, '.');
             if(j != whenToInsertEye) {
