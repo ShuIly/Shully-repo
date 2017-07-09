@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+/*TODO Animations*/
+
+@keyframes animate {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+.ball {
+    animation-duration: 3s;
+}
+
+.ball:first-of-type {
+    background: #ff005d;
+    animation: animate 1s infinite alternate ease-in-out;
+}
+
+.ball:nth-child(2) {
+    background: #35ff99;
+    animation: animate .8s infinite alternate ease-in-out;
+}
+
+.ball:nth-child(3) {
+    background: #008597;
+    animation: animate .94s infinite alternate ease-in-out;
+}
+
+.ball:nth-child(4) {
+    background: #ffcc00;
+    animation: animate .95s infinite alternate ease-in-out;
+}
+
+.ball:nth-child(5) {
+    background: #2d3443;
+    animation: animate .96s infinite alternate ease-in-out;
+}
+
+.ball:nth-child(6) {
+    background: #ff7c35;
+    animation: animate .97s infinite alternate ease-in-out;
+}
+
+.ball:nth-child(7) {
+    background: #4d407c;
+    animation: animate .98s infinite alternate ease-in-out;
+}
+
+/*TODO @keyframes*/
