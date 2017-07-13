@@ -1,0 +1,482 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,600");
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header,  menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Box Model */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Type */
+
+body {
+    color: #9a9a9a;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.65;
+    background: #fff;
+    font-size: 11pt;
+}
+
+a {
+    color: #5385c1;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #5385c1;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.inner {
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+/* Section/Article */
+
+section.special, article.special {
+    text-align: center;
+}
+
+section.special article, article.special article {
+    text-align: left;
+}
+
+section.wrapper, article.wrapper {
+    padding: 6em 0;
+}
+
+section.wrapper header, article.wrapper header {
+    margin-bottom: 4em;
+}
+
+section.wrapper header h2, article.wrapper header h2 {
+    font-size: 2.75em;
+    margin: 0 0 .5em 0;
+}
+
+section.wrapper header p, article.wrapper header p {
+    font-size: 1em;
+}
+
+section.wrapper article header, article.wrapper article header {
+    margin: 0;
+}
+
+section.wrapper.style1, article.wrapper.style1 {
+    background: #5385c1;
+    color: #bacee6;
+}
+
+section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
+    color: #fff;
+}
+
+section.wrapper.style1 header p, article.wrapper.style1 header p {
+    color: #bacee6;
+}
+
+section.wrapper.style1 h3, article.wrapper.style1 h3 {
+    color: #FFF;
+}
+
+
+header p {
+    color: #bbb;
+    position: relative;
+    margin: 0 0 1.5em 0;
+}
+
+header h2 + p {
+    font-size: 1.25em;
+    margin-top: -1em;
+}
+
+header h3 + p {
+    font-size: 1.1em;
+    margin-top: -0.8em;
+}
+header h4 + p,
+header h5 + p,
+header h6 + p {
+    font-size: 0.9em;
+    margin-top: -0.6em;
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex.flex-2 article {
+    width: 47%;
+}
+
+.flex.flex-3 article {
+    position: relative;
+    width: 28%;
+}
+
+.flex.flex-3 article:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -2em;
+    top: 0;
+    border-right: 1px solid #dbdbdb;
+}
+
+.flex.flex-3 article:last-child:before {
+    border: none;
+}
+
+.flex.flex-4 .box {
+    width: 21%;
+}
+
+
+/* Box */
+
+.box {
+    border: solid 1px #dbdbdb;
+    margin-bottom: 2em;
+    padding: 1.5em;
+}
+
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+    margin-bottom: 0;
+}
+
+.box.person {
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    padding: 3em 1.5em;
+}
+
+.box.person h3 {
+    margin: 0;
+}
+
+.box.person .image {
+    margin-bottom: 1em;
+}
+
+.box.person .image img {
+    max-width: 100%;
+}
+
+/* Icon */
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon:before {
+    font-family: FontAwesome, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon > .label {
+    display: none;
+}
+
+/* Image */
+
+.image {
+    border-radius: 0;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image img {
+    border-radius: 0;
+    display: block;
+}
+
+.image.round img {
+    border-radius: 100%;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+
+.image.fit img {
+    width: 100%;
+}
+
+/* List */
+
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+}
+
+ul li {
+    padding-left: 0.5em;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.icons li:last-child {
+    padding-right: 0;
+}
+
+ul.icons li .icon:before {
+    font-size: 2em;
+}
+
+/* Button */
+
+.button {
+    background-color: #5a5a5a;
+    border-radius: 0;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: #676767;
+}
+
+button.special,
+.button.special {
+    background-color: #5385c1;
+    color: #ffffff !important;
+}
+
+button.special:hover,
+.button.special:hover {
+    background-color: #6692c8;
+}
+
+/* Header */
+#header {
+    color: #d4e0ef;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: absolute;
+    text-align: right;
+    top: 4em;
+    width: 1583px;
+    z-index: 10001;
+}
+
+#header .inner {
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .logo {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    height: inherit;
+    left: 0;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    font-size: 1em;
+}
+
+#header a {
+    display: inline-block;
+    padding: 0 0.75em;
+    color: inherit;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+#header a:hover {
+    color: #ffffff;
+}
+
+#header a:last-child {
+    padding-right: 0;
+}
+
+#header a.navPanelToggle {
+    display: none;
+    text-decoration: none;
+    height: 4em;
+    width: 4em;
+    z-index: 10003;
+}
+
+#header a.navPanelToggle .fa {
+    font-size: 1.25em;
+}
+
+/* Banner */
+#banner {
+    padding: 12em 0 10em 0;
+    background-size: cover;
+    background: url('../../images/banner.jpg') no-repeat fixed top;
+    text-align: center;
+    border-top: 0.5em solid #5385c1;
+}
+
+#banner h1 {
+    font-size: 3.5em;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#banner p {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 1.75em;
+}
+/* Footer */
+
+#footer .inner {
+    border-top: 1px solid #dbdbdb;
+    padding-top: 3em;
+}
+
+#footer .copyright {
+    color: #bbb;
+    font-size: 0.8em;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+#footer .copyright a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+#footer .copyright a:hover {
+    color: #bbb;
+    text-decoration: underline;
+}
+
+#footer ul.icons li .icon {
+    font-size: 0.58em;
+}
+body {
+    font-size: 11pt;
+}
+.inner {
+    max-width: 1000px;
+}
+/* Banner */
+#banner {
+    padding: 10em 2em 8em 2em;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 980px) {
+   /*TODO*/
+}
+
+@media screen and (max-width: 760px) {
+    /*TODO*/
+}
+
+@media screen and (max-width: 480px) {
+    /*TODO*/
+}

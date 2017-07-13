@@ -1,0 +1,13 @@
+Online Shop
+
+Order Form
+Please fill in your information and we'll be sending your order in no time.
+
+name on card
+country
+email
+card number
+address
+expiration date
+
+Continue
