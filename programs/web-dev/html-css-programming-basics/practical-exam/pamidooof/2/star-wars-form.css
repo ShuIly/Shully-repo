@@ -1,0 +1,216 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    background: #4C8ADD;
+}
+
+#R2D2-image-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 30vw;
+    height: auto;
+}
+
+#R2D2-image {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.main-subtitle {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #B1CCF0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#credit-form {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: #5496EF;
+    z-index: 2;
+}
+
+.choose-credit-card {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.credit-card-container {
+    width: 49%;
+    display: inline-block;
+}
+
+.credit-card-container:first-of-type {
+    border-right: 1px solid #ffffff;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.credit-card-label {
+    padding: 8px 8px 21px 40px;
+    display: block;
+    position: relative;
+}
+
+.credit-card-label:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 28px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #315B94;
+    border-radius: 100%;
+}
+
+input[type="radio"]:checked + .credit-card-label:after {
+    content: '';
+    position: absolute;
+    left: 16.5px;
+    top: 33.5px;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 100%;
+}
+
+.credit-card-image {
+    width: 80px;
+    padding: 10px;
+    float: right;
+}
+
+.credit-card-name {
+    margin-top: 22px;
+    display: inline-block;
+}
+
+.card-number-label {
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+}
+
+.credit-card-name {
+    color: #B1CFF7;
+}
+
+#card-number-input {
+    margin-left: 15px;
+    background: none;
+    border: none;
+}
+
+.card-number {
+    color: #B1CFF7;
+}
+
+#card-number-input::placeholder {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#expiry-label, #csv-label {
+    padding: 10px 20px;
+    display: inline-block;
+    width: 43%;
+}
+
+#expiry-label {
+    border-right: 1px solid #ffffff;
+}
+
+.expiry, .csv {
+    color: #B1CFF7;
+}
+
+#csv-input, #expiry-input {
+    background: none;
+    border: none;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#csv-input::placeholder, #expiry-input::placeholder {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#csv-label {
+    position: relative;
+}
+
+#csv-label:after {
+    font-family: FontAwesome, sans-serif;
+    content: '\f129';
+    padding: 3px 7px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    color: #4E92EF;
+    background: #ffffff;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.finish-container {
+    padding: 20px;
+    text-align: center;
+    background: #3A77C8;
+}
+
+.finish {
+    color: #B1CCF0;
+}
+
+.finish:before {
+    content: '\f023';
+    font-family: FontAwesome, sans-serif;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.price-container {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+
+.price {
+    color: #B1CCF0;
+}
+
+#price-tag {
+    color: #ffffff;
+    font-size: 1.1em;
+}

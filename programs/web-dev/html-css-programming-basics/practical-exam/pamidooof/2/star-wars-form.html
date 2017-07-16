@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StarWars Form</title>
+    <link rel="stylesheet" href="star-wars-form.css">
+</head>
+<body>
+<main>
+    <h2 class="main-subtitle">may the force be with you</h2>
+    <h1 class="main-title">Thanks for pre-ordering!</h1>
+    <form id="credit-form">
+        <div class="choose-credit-card">
+            <div class="credit-card-container">
+                <input name="card-group" type="radio" id="pay-pal">
+                <label class="credit-card-label" for="pay-pal">
+                    <span class="credit-card-name">Pay Pal</span>
+                    <img src="images/PayPal.png" alt="credit-card.png" class="credit-card-image">
+
+                </label>
+            </div>
+            <div class="credit-card-container">
+                <input name="card-group" type="radio" id="master-card">
+                <label class="credit-card-label" for="master-card">
+                    <span class="credit-card-name">Debit/Credit Card</span>
+                    <img src="images/MasterCard.png" alt="credit-card.png" class="credit-card-image">
+                </label>
+            </div>
+        </div>
+        <label class="card-number-label" for="card-number-input">
+            <span class="card-number">Card Number</span>
+            <input id="card-number-input" type="text"
+                   placeholder="4111 1111 1111 1111">
+        </label>
+        <div class="expiry-and-csv-container">
+            <label id="expiry-label" for="expiry-input">
+                <span class="expiry">Expiry</span>
+                <input id="expiry-input" type="text" placeholder="MM/YY">
+            </label>
+            <label id="csv-label" for="csv-input">
+                <span class="csv">CSV</span>
+                <input id="csv-input" type="number" placeholder="123">
+            </label>
+        </div>
+        <div class="finish-container">
+            <p class="finish">Finish and Pay</p>
+        </div>
+        <div class="price-container">
+            <p class="price">That's <span id="price-tag">$19.99</span></p>
+        </div>
+    </form>
+</main>
+<div id="R2D2-image-container">
+    <img src="images/R2D2.png" alt="R2D2.png" id="R2D2-image">
+</div>
+</body>
+</html>
